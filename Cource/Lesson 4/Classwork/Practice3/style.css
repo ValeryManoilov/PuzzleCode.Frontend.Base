@@ -1,0 +1,15 @@
+.galery1 {
+    float: left;
+}
+
+.galery2{
+    width: 522px;
+    left: 600px;
+    float: left;
+    margin-left: 50px;
+}
+
+.textclass {
+    text-align: center;
+    left: 50%;
+}
