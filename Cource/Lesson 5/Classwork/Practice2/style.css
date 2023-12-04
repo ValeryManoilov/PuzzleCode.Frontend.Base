@@ -1,0 +1,23 @@
+.description{
+    border: 2px;
+    border-style: dotted;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    background-color:beige;
+}
+.mygame{
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    background-color:rgb(230, 230, 105);
+}
+.contact-info{
+    border: 2px solid black;
+    border-style:dashed;
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    background-color:rgb(160, 230, 154);
+}
