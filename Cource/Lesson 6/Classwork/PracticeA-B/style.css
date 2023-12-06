@@ -42,22 +42,38 @@
 
 #li3{
     color: red;
+    background-image: url('https://b1.vpoxod.ru/ckeditor/30/33/71/264457.jpg');
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 60px;
 }
 
 #li4{
     color: green;
+    background-image: url('https://www.moscowzoo.ru/upload/iblock/3ac/3ac31fef9bb5af914d2f7088fe4ae46d.jpg');
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 60px;
 }
 
 #li5{
     color: goldenrod;
+    background-image: url('https://kazzoobotsad.ru/upload/iblock/6bf/0gknfo2hf0tm70fd2cs61oyji2gxf1kf.JPG');
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 60px;
 }
 
 #li6{
     color: yellow;
+    background-image: url('https://i.bigenc.ru/resizer/resize?sign=prOL2gobcwnw9R8xQPWFQw&filename=vault/b18fa19e7e42258112e5251b1201e806.webp&width=1200');
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 60px;
 }
 
 .wildlife-image{
-    background-image: url('https://bibl.belstu.by/wp-content/uploads/2019/09/%D0%92-%D0%BC%D0%B8%D1%80%D0%B5-%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D1%8B%D1%85-1920-%D0%BE%D1%81%D0%B5%D0%BD%D1%8C.jpg');
+    background-image: url('https://www.karusel-tv.ru/media/suit/900x506/media/video_cover/2018/01/1516984028429239_1.png');
     background-repeat: inherit;
     margin: 0;
     padding: 0;
