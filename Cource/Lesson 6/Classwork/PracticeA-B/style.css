@@ -1,0 +1,65 @@
+
+.wildlife-title{
+    font-size: 44px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Arial', sans-serif;
+}
+
+.wildlife-list{
+    list-style:none; 
+    margin: 0; 
+    padding: 0;
+    font-size: 24px;
+    font-style: italic;
+    font-family: 'Arial', sans-serif;
+    width: 400px;
+    border: 2px solid black;
+    margin: 7px;
+    padding: 7px;
+}
+
+.wildlife-description{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Arial', sans-serif;
+}
+
+#li1{
+    color: blue;
+    background-image: url('https://media.izi.travel/b01d3830-4c8c-481e-9df9-b9bd0d5a69f1/3b0962e9-bc5c-41b0-be8a-f5ad17cbfd14_800x600.jpg');
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+#li2{
+    color: orange;
+    background-image: url('https://rgo.ru/upload/s34web.imageadapter/3391b95c081666cc16ceb5b195d7ccf4/oleg_bogdanov_amurskiy_tigr_592345.jpg');
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+#li3{
+    color: red;
+}
+
+#li4{
+    color: green;
+}
+
+#li5{
+    color: goldenrod;
+}
+
+#li6{
+    color: yellow;
+}
+
+.wildlife-image{
+    background-image: url('https://bibl.belstu.by/wp-content/uploads/2019/09/%D0%92-%D0%BC%D0%B8%D1%80%D0%B5-%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D1%8B%D1%85-1920-%D0%BE%D1%81%D0%B5%D0%BD%D1%8C.jpg');
+    background-repeat: inherit;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
