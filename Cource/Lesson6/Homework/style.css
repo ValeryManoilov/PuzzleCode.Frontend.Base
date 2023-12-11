@@ -27,7 +27,10 @@ h1{
     width: 200px;
     padding-left: 350px;
     font-size: 30px;
-    line-height: 10px;
+    line-height: 30px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 #writer1{
@@ -61,6 +64,10 @@ h1{
     width: 200px;
     padding-left: 350px;
     font-size: 30px;
+    line-height: 30px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 #image3{
@@ -72,6 +79,10 @@ h1{
     width: 200px;
     padding-left: 350px;
     font-size: 30px;
+    line-height: 30px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 #title3{
@@ -108,6 +119,10 @@ h1{
     width: 200px;
     padding-left: 350px;
     font-size: 30px;
+    line-height: 30px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 #writer4{
