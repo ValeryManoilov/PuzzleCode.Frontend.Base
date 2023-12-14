@@ -1,0 +1,51 @@
+.container{
+    position: relative;
+    background-image: url(https://decorel.by/wp-content/uploads/2015/03/thumb_01607.jpg);
+    height: 600px;
+    width: 900px;
+    background-size: cover;
+}
+
+
+img:nth-child(2){
+    left: 100px;
+    top: 350px;
+    z-index: 2;
+    position: absolute;
+}
+
+img:nth-child(3){
+    right: 100px;
+    top: 350px;
+    z-index: 2;
+    position: absolute;
+}
+
+img:nth-child(4){
+    left: 10px;
+    bottom: 10px;
+    z-index: 2;
+    position: absolute;
+}
+
+img:nth-child(5){
+    right: 10px;
+    bottom: 10px;
+    z-index: 2;
+    position: absolute;
+}
+
+img:nth-child(1){
+    right: 180px;
+    bottom: 70px;
+    z-index: 2;
+    position: absolute;
+}
+
+img:nth-child(6){
+    left: 180px;
+    bottom: 70px;
+    z-index: 2;
+    position: absolute;
+}
+
