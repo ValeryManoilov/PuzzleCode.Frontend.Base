@@ -1,51 +1,121 @@
-.container{
+div:first-child{
     position: relative;
-    background-image: url(https://decorel.by/wp-content/uploads/2015/03/thumb_01607.jpg);
-    height: 600px;
-    width: 900px;
-    background-size: cover;
+    float: left;
+}
+div:nth-child(n+2){
+    z-index: 2;
+    position: absolute;
+}
+
+div:nth-child(2){
+    top: 200px;
+    left: 60px;
+    width: 400px;
+    height: 400px;
+}
+
+div:nth-child(3){
+    top: 400px;
+    left: 60px;
+    width: 400px;
+    height: 400px;
+}
+
+div:nth-child(4){
+    top: 200px;
+    left: 300px;
+    width: 400px;
+    height: 400px;
+}
+
+div:nth-child(5){
+    top: 400px;
+    left: 300px;
+    width: 400px;
+    height: 400px;
+}
+
+div:nth-child(6){
+    top: 200px;
+    left: 540px;
+    width: 600px;
+    height: 400px;
+}
+
+div:nth-child(7){
+    top: 400px;
+    left: 540px;
+    width: 600px;
+    height: 400px;
+}
+
+.img1{
+    top: 300px;
+    color: azure;
+    left: 60px;
+    width: 400px;
+    height: 400px;
+}
+
+p{
+    left: 0;
+    top: 0;
+    z-index: 2;
+    color: blue;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    width: 200px;
+}
+
+p:nth-child(5){
+    width: 600px;
 }
 
 
-img:nth-child(2){
-    left: 100px;
-    top: 350px;
+
+img:first-child{
+    position: relative;
+}
+
+img:nth-child(n+2){
     z-index: 2;
     position: absolute;
+}
+
+img:nth-child(2){
+    left: 50px;
+    top: 200px;
+    float: right;
+    margin: 10px 10px 10px 0;
 }
 
 img:nth-child(3){
-    right: 100px;
-    top: 350px;
-    z-index: 2;
-    position: absolute;
+    left: 400px;
+    top: 240px;
+    rotate: 20deg;
 }
 
 img:nth-child(4){
-    left: 10px;
-    bottom: 10px;
-    z-index: 2;
-    position: absolute;
+    left: 400px;
+    top: 200px;
+    rotate: -20deg;
 }
 
 img:nth-child(5){
-    right: 10px;
-    bottom: 10px;
-    z-index: 2;
-    position: absolute;
-}
-
-img:nth-child(1){
-    right: 180px;
-    bottom: 70px;
-    z-index: 2;
-    position: absolute;
+    left: 460px;
+    top: 300px;
+    rotate: 20deg;
 }
 
 img:nth-child(6){
-    left: 180px;
-    bottom: 70px;
-    z-index: 2;
-    position: absolute;
+    left: 340px;
+    top: 300px;
+    rotate: -20deg;
 }
 
+img:nth-child(7){
+    left: 50px;
+    top: 400px;
+    rotate: -20deg;
+}

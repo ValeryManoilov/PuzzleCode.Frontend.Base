@@ -1,0 +1,102 @@
+div:first-child{
+    position: relative;
+    float: left;
+}
+div:nth-child(n+2){
+    z-index: 2;
+    position: absolute;
+}
+
+div:nth-child(2){
+    top: 200px;
+    left: 60px;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+div:nth-child(3){
+    top: 400px;
+    left: 60px;
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
+
+div:nth-child(4){
+    top: 200px;
+    left: 300px;
+    width: 200px;
+    height: 200px;
+    background-color: hotpink;
+}
+
+div:nth-child(5){
+    top: 400px;
+    left: 300px;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+div:nth-child(6){
+    top: 200px;
+    left: 540px;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+
+div:nth-child(7){
+    top: 400px;
+    left: 540px;
+    width: 200px;
+    height: 200px;
+    background-color: forestgreen;
+}
+
+.img1{
+    float: right;
+}
+
+.img2{
+    float: left;
+}
+
+.img3{
+    float: right;
+}
+
+.img4{
+    float: left;
+}
+
+.img5{
+    float: right;
+}
+
+.img6{
+    float: left;
+}
+
+p{
+    left: 0;
+    top: 0;
+    z-index: 2;
+    color: blue;
+    padding: 0;
+    margin-top: 0;
+    font-size: 14px;
+    width: 200px;
+}
+
+
+img:first-child{
+    position: relative;
+}
+
+img:nth-child(n+2){
+    z-index: 2;
+    position: absolute;
+}
+
