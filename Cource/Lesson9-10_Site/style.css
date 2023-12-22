@@ -1,0 +1,177 @@
+body{
+    width: 1920px;
+}
+
+section{
+    border: 1px solid gray;
+}
+
+
+/* Первая секция */
+
+section:first-child{
+    background-image: url(static/back1.png);
+    height: 954px;
+}
+
+.AgricultureMatterH2{
+    margin-top: 37px;
+    margin-left: 240px;
+    color: #F7C35F;
+    font-family: Livvic;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.GoodProductionH2{
+    margin-left: 240px;
+    margin-bottom: 10px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.OriginalP{
+    color: #FFF;
+    margin-left: 240px;
+    margin-top: 268px;
+    font-family: Livvic;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.DissuadeP{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 240px;
+    width: 700px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.DiscoverBut{
+    display: flex;
+    padding: 25px 50px;
+    align-items: flex-start;
+    gap: 10px;
+    margin-left: 240px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background: #F7C35F;
+    border: none;
+    font-family: Livvic;
+    font-weight: 500;
+    transition: background-color 0.5s;
+}
+
+.DiscoverBut:hover{
+    background-color: #F6D086;
+}
+
+.DiscoverBut:focus{
+    background-color: #C58D21;
+}
+
+.DiscoverBut:active{
+    background-color: #A16C06;
+}
+
+/* Вторая секwия */
+
+section:nth-child(2){
+    background-color: #334B35;
+    height: 656px;
+}
+
+.container1{
+    text-align: center;
+    margin-top: 78px;
+}
+
+.FoodsAndVegetablesP{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.QualityH2{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.FrAndVg{
+    background-color: #445945;
+    display: flex;
+    flex-direction: column;
+    width: 183px;
+    height: 177px;
+    justify-content:center;
+    vertical-align: baseline;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    transition: background-color 0.5s;
+}
+.FrAndVg:hover{
+    background-color: #F7C35F;
+}
+.FrAndVg:focus{
+    background-color: #6A8A6D;
+}
+.FrAndVg:active{
+    background-color: #263C28;
+}
+
+
+.FruitsAndVegetablesDiv{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 240px;
+    padding-right: 240px;
+    margin-top: 100px;
+}
+
+.FruitsAndVegetablesDiv img{
+    margin-bottom: 20px;
+}
+
+.FruitsAndVegetablesDiv p{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+section:nth-child(3){
+    background-image: url(static/back2.png);
+    height: 694px;
+}
+
+section:nth-child(4){
+    background-color: #263C28;
+    height: 853px;
+    flex-shrink: 0;
+}
