@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SiteVM</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
@@ -11,12 +11,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@500&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
 </head>
-<body>
-    <section class="section1">
-        <p class="OriginalP">Original & Natural</p>
-        <div>
+<header>
+    <img src="static/Logo.svg" alt="Logo" class="Logo">
+    <nav>
+        <a href="#Home">Home</a>
+        <a href="">About us</a>
+        <a href="#OurProducts">Our Products</a>
+        <a href="#Projects">Projects</a>
+        <a href="">Services</a>
+        <a href="">News</a>
+        <a href="#Contact">Contact Us</a>
+    </nav>
+</header>
+<body id="Home">
+    <section class="section1" id="AboutUs">
+        <div class="DescriptionSite">
+            <p class="OriginalP">Original & Natural</p>
             <div>
-                <h2 class="AgricultureMatterH2">Agriculture Matter</h2>
+                <div class="AgricultureMatter">
+                    <img src="static/leafs.png" alt="Leafs" class="leafs">
+                    <h2>Agriculture Matter</h2>
+                </div>
                 <h2 class="GoodProductionH2">Good production</h2>
                 <p class="DissuadeP">
                     Dissuade ecstatic and properly 
@@ -28,8 +43,8 @@
             <button class="DiscoverBut">Discover More</button>
         </div>
     </section>
-    <section>
-        <div class="container1">
+    <section class="section2" id="OurProducts">
+        <div class="PopularFoods">
             <p class="FoodsAndVegetablesP">Popular Foods And Vegetables</p>
             <h2 class="QualityH2">Quality Fruits & Vegetables</h2>
         </div>
@@ -60,45 +75,99 @@
             </article>
         </div>
     </section>
-    <section>
-        <h2>
+    <section class="section3">
+        <h2 class="AgricultureBangladeshH2">
             Agriculture Matters to
             the Future of Bangladesh
         </h2>
     </section>
-    <section>
-        <div>
+    <section class="section4" id="Projects">
+        <div class="CompletedWork">
             <p>RECENTLY COMPLETED WORK</p>
             <h2>Explore Our Projects</h2>
         </div>
-        <article>
-            <p>Agriculture</p>
-            <h5>
-                Natural way of
-                agriculture
-            </h5>
-        </article>
-        <article>
-            <p>Agriculture</p>
-            <h5>
-                Natural way of
-                agriculture
-            </h5>
-        </article>
-        <article>
-            <p>Agriculture</p>
-            <h5>
-                Natural way of
-                agriculture
-            </h5>
-        </article>
-        <article>
-            <p>Agriculture</p>
-            <h5>
-                Natural way of
-                agriculture
-            </h5>
-        </article>
+        <div class="Projects">
+            <article class="Project">
+                <div class="AllPicture" id="pic1">
+                    <div class="ContainerProject">
+                        <div class="DescriptionProject">
+                            <p class="NameProject">Agriculture</p>
+                            <p>
+                                Natural way of
+                                agriculture
+                            </p>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="Cursor">
+                            <path d="M11 19L22 12L11 5L14.425 11H2V13H14.425L11 19Z"/>
+                        </svg>
+                    </div>
+                </div>
+            </article>
+            <article class="Project">
+                <div class="AllPicture" id="pic2">
+                    <div class="ContainerProject">
+                        <div class="DescriptionProject">
+                            <p class="NameProject">Agriculture</p>
+                            <p>
+                                Natural way of
+                                agriculture
+                            </p>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="Cursor">
+                            <path d="M11 19L22 12L11 5L14.425 11H2V13H14.425L11 19Z"/>
+                        </svg>
+                    </div>
+                </div>
+            </article>
+            <article class="Project">
+                <div class="AllPicture" id="pic3">
+                    <div class="ContainerProject">
+                        <div class="DescriptionProject">
+                            <p class="NameProject">Agriculture</p>
+                            <p>
+                                Natural way of
+                                agriculture
+                            </p>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="Cursor">
+                            <path d="M11 19L22 12L11 5L14.425 11H2V13H14.425L11 19Z"/>
+                        </svg>
+                    </div>
+                </div>
+            </article>
+            <article class="Project">
+                <div class="AllPicture" id="pic4">
+                    <div class="ContainerProject">
+                        <div class="DescriptionProject">
+                            <p class="NameProject">Agriculture</p>
+                            <p>
+                                Natural way of
+                                agriculture
+                            </p>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="Cursor">
+                            <path d="M11 19L22 12L11 5L14.425 11H2V13H14.425L11 19Z"/>
+                        </svg>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="carousel">
+            <div class="oval"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
     </section>
 </body>
+<footer id="Contact">
+    <p class="Copyright">Copyright @Smart Agro. All Right reserved.</p>
+    <div class="InputEmail">
+        <input type="text" name="" id="Input" placeholder="Enter your mail here...">
+        <button class="GoBut">GO</button>
+    </div>
+    <div class="Additions">
+        <p>Terms & Conditions</p>
+        <p>Privacy Policy</p>
+    </div>
+</footer>
 </html>

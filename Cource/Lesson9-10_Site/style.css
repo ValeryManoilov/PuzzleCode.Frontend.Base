@@ -6,27 +6,98 @@ section{
     border: 1px solid gray;
 }
 
+button{
+    cursor: pointer;
+}
+
+/* Навигация */
+header{
+    width: 1920px;
+    height: 110px;
+    flex-shrink: 0;
+    background-color: #334B35;
+    display: flex;
+    flex-direction: row;
+}
+
+.Logo{
+    width: 197.461px;
+    height: 30.952px;
+    flex-shrink: 0;
+    margin-left: 241.13px;
+    margin-top: 40px;
+    margin-right: 412px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 802px;
+    height: 33px;
+    margin-top: 40px;
+}
+
+a{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none;
+    transition: all 0.1s;
+}
+
+a:hover{
+    border-bottom: 3px solid #F7C35F;
+}
 
 /* Первая секция */
 
-section:first-child{
+.DescriptionSite{
+    margin-left: 240px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 730px;
+    height: 406px;
+    margin-top: 12px;
+}
+
+.section1{
     background-image: url(static/back1.png);
     height: 954px;
 }
 
-.AgricultureMatterH2{
+.AgricultureMatter{
+    width: 639px;
+    height: 109px;
+    position: relative;
+    margin-top: 4px;
+}
+
+.AgricultureMatter h2{
     margin-top: 37px;
-    margin-left: 240px;
     color: #F7C35F;
     font-family: Livvic;
     font-size: 70px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    position: absolute;
+    bottom: 0;
+}
+
+.leafs{
+    width: 75px;
+    height: 62px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-left: 528px;
+
 }
 
 .GoodProductionH2{
-    margin-left: 240px;
     margin-bottom: 10px;
     color: #FFF;
     font-family: Livvic;
@@ -38,13 +109,12 @@ section:first-child{
 
 .OriginalP{
     color: #FFF;
-    margin-left: 240px;
-    margin-top: 268px;
     font-family: Livvic;
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    margin-top: 253px;
 }
 
 .DissuadeP{
@@ -54,7 +124,6 @@ section:first-child{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 240px;
     width: 700px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -65,7 +134,6 @@ section:first-child{
     padding: 25px 50px;
     align-items: flex-start;
     gap: 10px;
-    margin-left: 240px;
     margin-top: 30px;
     border-radius: 20px;
     background: #F7C35F;
@@ -73,6 +141,7 @@ section:first-child{
     font-family: Livvic;
     font-weight: 500;
     transition: background-color 0.5s;
+    cursor: pointer;
 }
 
 .DiscoverBut:hover{
@@ -87,14 +156,14 @@ section:first-child{
     background-color: #A16C06;
 }
 
-/* Вторая секwия */
+/* Вторая секция */
 
-section:nth-child(2){
+.section2{
     background-color: #334B35;
     height: 656px;
 }
 
-.container1{
+.PopularFoods{
     text-align: center;
     margin-top: 78px;
 }
@@ -165,13 +234,292 @@ section:nth-child(2){
     text-align: center;
 }
 
-section:nth-child(3){
+/* Третья секция */
+
+.section3{
     background-image: url(static/back2.png);
     height: 694px;
 }
 
-section:nth-child(4){
+.AgricultureBangladeshH2{
+    margin-left: 240px;
+    gap: 20px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 609px;
+    margin-top: 284px;
+}
+
+
+/* Четвертая секция */
+
+.section4{
     background-color: #263C28;
     height: 853px;
     flex-shrink: 0;
+}
+
+
+.CompletedWork{
+    text-align: center;
+    margin-top: 130px;
+}
+
+.CompletedWork p{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.CompletedWork h2{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Projects{
+    display: flex;
+    flex-direction: row;
+    margin-left: 240px;
+    margin-right: 240px;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.Project{
+    position: relative;
+    z-index: 1;
+    width: 318px;
+    height: 350px;
+}
+
+.AllPicture{
+    width: 318px;
+    height: 350px;
+    transition: all 0.3s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#pic1{
+    background-image: url(static/EOP1.svg);
+    background-size: cover;
+}
+
+#pic2{
+    background-image: url(static/EOP2.svg);
+    background-size: cover;
+}
+
+#pic3{
+    background-image: url(static/EOP3.svg);
+    background-size: cover;
+}
+
+#pic4{
+    background-image: url(static/EOP4.svg);
+    background-size: cover;
+}
+.AllPicture:hover{
+    transform: translateY(-25px);
+    border: 1px solid #F7C35F;
+    border-radius: 10px;
+}
+.AllPicture:focus{
+    border: 1px solid #C58D21;
+}
+.AllPicture:active{
+    transform: scale(0.94);
+    border: 1px solid #A16C06;
+}
+.AllPicture::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;      
+	left: 0;
+    border-radius: 10px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 50%, rgba(0, 0, 0, 0.70) 100%);
+}
+
+.Cursor{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 0;
+    vertical-align: middle;
+    fill: #F7C35F;
+    transition: all 0.3s;
+}
+.AllPicture:active .Cursor{
+    fill: #A16C06;
+}
+.AllPicture:focus .Cursor{
+    fill: #C58D21;
+}
+
+
+.ContainerProject{
+    display: flex;
+    flex-direction: row;
+    width: 268px;
+    height: 66px;
+    align-items: center;
+    position: absolute;
+    flex-shrink: 0;
+    top: 268px;
+    left: 25px;
+    z-index: 2;
+    transition: all 0.3s;
+}
+
+.ImgProject{
+    width: 318px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.DescriptionProject{
+    top: 268px;
+    left: 25px;
+    z-index: 2;
+}
+
+.DescriptionProject .NameProject{
+    color: #F7C35F;
+    font-family: Livvic;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.DescriptionProject p{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 133px;
+    margin-top: 5px;
+}
+
+
+.carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 54px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.oval{
+    width: 20px;
+    height: 10px;
+    border-radius: 50px;
+    background: #F7C35F;
+}
+
+.circle{
+    width: 10px;
+    height: 10px;
+    background-color: #CCC;
+    border-radius: 50px;
+}
+
+/* Подвал сайта */
+
+footer{
+    width: 1920px;
+    height: 110px;
+    flex-shrink: 0;
+    background-color: #334B35;
+    display: flex;
+    flex-direction: row;
+}
+
+.Copyright{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 240px;
+    margin-top: 40px;
+    margin-right: 250px;
+}
+
+.InputEmail{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 310px;
+}
+
+#Input{
+    height: 50px;
+    width: 200px;
+    border: 1px solid white;
+    background-color: #334B35;
+    border-radius: 50px;
+    color: white;
+    padding-left: 20px;
+}
+#Input::placeholder{
+    color: white;
+    font-family: Livvic;
+    font-size: 12px;
+}
+
+.GoBut{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: #F7C35F;
+    font-family: Livvic;
+    font-size: 16px;
+}
+.GoBut:hover{
+    background-color: #F6D086;
+}
+
+.GoBut:focus{
+    background-color: #C58D21;
+}
+
+.GoBut:active{
+    background-color: #A16C06;
+}
+
+.Additions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Livvic;
+    color: white;
+    width: 300px;
+    margin-left: 250px;
+    margin-top: 40px;
 }
