@@ -1,0 +1,252 @@
+@media (max-width: 1280px) 
+{
+    /* Первая секция */
+    .section1 {
+        width: 1280px;
+    }
+    .DescriptionSite{
+        width: 35%;
+        margin-top: 12%;
+        margin-left: 18%;
+    }
+    .TextOfDescription{
+        margin-top: 18%;
+    }
+    .leafs{
+        width: 50px;
+        height: 42px;
+        margin-left: 45%;
+        bottom: 55px;
+    }
+    .DiscoverBut{
+        padding: 20px 40px;
+    }
+    .DissuadeP{
+        line-height: 150%;
+    }
+
+    /* Вторая секция */
+
+    .section2 {
+        width: 1280px;
+        height: 900px;
+    }
+
+    .FruitsAndVegetablesDiv{
+        display: grid;
+        grid-template-columns: repeat(3, 183px);
+        padding-left: 240px;
+        column-gap: 125.5px;
+        row-gap: 125.5px;
+    }
+}
+
+@media (max-width: 1024px) 
+{
+    /* Первая секция */
+    .section1 {
+        width: 1024px;
+    }
+    .DescriptionSite{
+        width: 50%;
+        margin-left: 96px;
+    }
+    .leafs{
+        width: 50px;
+        height: 42px;
+        margin-left: 39%;
+    }
+
+    /* Вторая секция */
+
+    .section2 {
+        width: 1024px;
+        height: 900px;
+    }
+
+    .FruitsAndVegetablesDiv{
+        display: grid;
+        grid-template-columns: repeat(3, 183px);
+        padding-left: 96px;
+        column-gap: 125.5px;
+        row-gap: 125.5px;
+    }
+}
+
+@media (max-width: 768px) 
+{
+    /* Первая секция */
+
+    .section1 {
+        width: 768px;
+    }
+    .DescriptionSite{
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 20%;
+    }
+    .DiscoverBut{
+        padding: 20px 40px;
+    }
+    .leafs{
+        margin-left: 175px;
+    }
+    .DissuadeP{
+        line-height: 150%;
+    }
+
+    /* Вторая секция */
+
+    .section2 {
+        width: 768px;
+        height: 1200px;
+    }
+
+    .FruitsAndVegetablesDiv{
+        display: grid;
+        grid-template-columns: repeat(2, 183px);
+        padding-left: 134px;
+        column-gap: 134px;
+        row-gap: 125.5px;
+    }
+}
+
+@media (max-width: 600px) 
+{
+    /* Первая секция */
+    .section1 {
+        width: 600px;
+    }
+    .DescriptionSite{
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 20%;
+    }
+
+    /* Вторая секция */
+
+    .section2 {
+        width: 600px;
+        height: 1100px;
+    }
+
+    .FruitsAndVegetablesDiv{
+        display: grid;
+        grid-template-columns: repeat(2, 183px);
+        padding-left: 78px;
+        column-gap: 78px;
+        row-gap: 78px;
+    }
+
+    .FoodsAndVegetablesP{
+        font-size: 16px;
+    }
+    
+    .QualityH2{
+        font-size: 40px;
+    }
+    .PopularFoods{
+        width: 600px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) 
+{
+    /* Первая секция */
+    .section1 {
+        width: 480px;
+    }
+    .DescriptionSite{
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 20%;
+    }
+
+    /* Вторая секция */
+
+    .section2 {
+        width: 480px;
+        height: 1100px;
+    }
+
+    .FruitsAndVegetablesDiv{
+        display: grid;
+        grid-template-columns: repeat(2, 183px);
+        padding-left: 38px;
+        column-gap: 38px;
+        row-gap: 78px;
+    }
+
+    .FoodsAndVegetablesP{
+        font-size: 16px;
+    }
+    
+    .QualityH2{
+        font-size: 40px;
+    }
+    .PopularFoods{
+        width: 480px;
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 320px){
+
+    /* Первая секция */
+    .section1 {
+        width: 320px;
+        height: 800px;
+    }
+    .DescriptionSite{
+        width: 80%;
+        margin-left: 15px;
+        margin-top: 25%;
+    }
+    .AgricultureMatter h2{
+        font-size: 350%;
+    }
+    .GoodProductionH2{
+        font-size: 350%;
+    }
+    .DissuadeP{
+        font-size: 85%;
+        width: 70%;
+    }
+    .leafs{
+        margin-left: 145px;
+        bottom: 41px;
+        width: 34px;
+        height: 29px;
+    }
+
+    /* Вторая секция */
+
+    .section2 {
+        width: 320px;
+        height: 1900px;
+    }
+
+    .FruitsAndVegetablesDiv{
+        display: grid;
+        grid-template-columns: repeat(1, 183px);
+        padding-left: 68.5px;
+        row-gap: 78px;
+    }
+
+    .FoodsAndVegetablesP{
+        width: 320px;
+        font-size: 16px;
+    }
+
+    .QualityH2{
+        width: 320px;
+        font-size: 40px;
+    }
+
+    .PopularFoods{
+        width: 320px;
+        text-align: center;
+    }
+}
