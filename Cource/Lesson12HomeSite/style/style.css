@@ -1,14 +1,21 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @font-face {
     font-family: 'Roboto';
     src: url('fonts/roboto-regular.woff2');
-    font-weight: 700; 
+    font-weight: 400; 
     font-style: normal;
 }
 
 *{
     padding: 0;
     margin: 0;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 body{
@@ -17,15 +24,18 @@ body{
 }
 
 header{
-    height: 132px;    
+    height: 132px; 
 }
 
 /* Шапка */
 
 .TitleheadDiv{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    margin-top: 26px;
+    padding-top: 26px;
     margin-left: 28px;
+    padding-bottom: 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.10);
 }
 
@@ -64,10 +74,16 @@ header{
 }
 
 .RefsheadRef{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-top: 42px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 20px;
     margin-left: 382px;
     width: 790px;
     height: 28px;
@@ -84,9 +100,11 @@ header{
 .Contentsec2Div{
     width: 1280px;
     height: 584px;
-    margin-top: 60px;
+    margin-top: 65px;
     margin-left: 80px;
     background: var(--Dark-Primary, #2A254B);
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     position: relative;
 }
@@ -98,12 +116,20 @@ header{
     font-style: normal;
     font-weight: 400;
     line-height: 140%; /* 44.8px */
+    letter-spacing: 1px;
 }
 
 .Textsec2Div{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 41px;
     margin-left: 60px;
     margin-top: 60px;
@@ -112,9 +138,13 @@ header{
 }
 
 .Collsec2But{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 16px 32px;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 10px;
     background: rgba(249, 249, 249, 0.15);
     border: none;
@@ -130,12 +160,13 @@ header{
     color: var(--White, #FFF);
     width: 674px;
     height: 84px;
-    margin-top: 160px;
+    margin-top: 150px;
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%; /* 28px */
+    letter-spacing: 150%;
 }
 
 .RightImage{
@@ -159,7 +190,7 @@ header{
     font-style: normal;
     font-weight: 400;
     line-height: 140%; /* 44.8px */
-    margin-top: 60px;
+    margin-top: 65px;
     margin-left: 529px;
     width: 449px;
     height: 45px;
@@ -168,10 +199,17 @@ header{
 .ProductCardsec3Div{
     width: 1244px;
     height: 210px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     margin-left: 86px;
-    flex-direction: row;
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-top: 40px
 }
 
@@ -184,7 +222,7 @@ header{
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 140%; /* 28px */
     margin-top: 16px;
 }
@@ -225,9 +263,16 @@ header{
 
 .ProductCardsec4Div{
     margin-top: 26.5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 1280px;
 }
 
@@ -240,8 +285,13 @@ header{
     margin-top: 18px;
     width: 100%;
     height: 64px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     gap: 8px;
 }
 
@@ -255,9 +305,13 @@ header{
 }
 
 .ViewCollsec4But{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     padding: 16px 32px;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 10px;
     background: var(--Light-Grey, #F9F9F9);
     color: #2A254B;
@@ -268,8 +322,13 @@ header{
     line-height: 140%; /* 28px */
     border: none;
     display: inline-flex;
-    flex-direction: row;
-    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 34.5px;
     margin-left: 555px;
 }
@@ -299,9 +358,16 @@ header{
 
 .ProductCardsec5Div{
     margin-top: 24.5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .ProductCardsec5Art{
@@ -312,8 +378,13 @@ header{
     width: 100%;
     height: 64px;
     margin-top: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     gap: 8px;
 }
 
@@ -327,9 +398,13 @@ header{
 }
 
 .ViewCollsec5But{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     padding: 16px 32px;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 10px;
     background: var(--Light-Grey, #F9F9F9);
     color: #2A254B;
@@ -340,8 +415,13 @@ header{
     line-height: 140%; /* 28px */
     border: none;
     display: inline-flex;
-    flex-direction: row;
-    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 44px;
     margin-left: 555px;
 }
@@ -357,11 +437,21 @@ header{
 .Contentsec6Div{
     width: 1273px;
     height: 364px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 93px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 80px;
     margin-top: 52px;
+    margin-bottom: 65px
+    ;
+    padding-top: 68px;
     background: var(--White, #FFF);
 }
 
@@ -396,15 +486,66 @@ header{
     width: 472px;
     height: 60px;
     margin-top: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: left;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
 }
 
 .Emailsec6Input{
     width: 341px;
     height: 60px;
     border: none;
+}
+.Emailsec6Input::-webkit-input-placeholder{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    background: var(--Light-Grey, #F9F9F9);
+    padding-left: 32px;
+    padding-top: 17px;
+}
+.Emailsec6Input::-moz-placeholder{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    background: var(--Light-Grey, #F9F9F9);
+    padding-left: 32px;
+    padding-top: 17px;
+}
+.Emailsec6Input:-ms-input-placeholder{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    background: var(--Light-Grey, #F9F9F9);
+    padding-left: 32px;
+    padding-top: 17px;
+}
+.Emailsec6Input::-ms-input-placeholder{
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    background: var(--Light-Grey, #F9F9F9);
+    padding-left: 32px;
+    padding-top: 17px;
 }
 .Emailsec6Input::placeholder{
     color: var(--Dark-Primary, #2A254B);
@@ -419,9 +560,13 @@ header{
 }
 
 .SignInsec6But{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 16px 32px;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 10px;
     background: var(--Dark-Primary, #2A254B);
     color: var(--White, #FFF);
@@ -444,9 +589,16 @@ header{
 
 .Contentsec7Div{
     margin-left: 84px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .Textsec7Div{
@@ -479,9 +631,13 @@ header{
 }
 
 .Touchsec2But{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 16px 32px;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 10px;
     margin-top: 104px;
     background: var(--Light-Grey, #F9F9F9);
@@ -507,17 +663,31 @@ footer{
     width: 1275px;
     padding-left: 82px;
     padding-top: 58px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 
 .ListOfLinksfootDiv{
     height: 198px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 12px;
 }
 
@@ -552,8 +722,13 @@ footer{
 }
 
 .JoinfootDiv{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 627px;
     height: 96px;
 }
@@ -568,20 +743,73 @@ footer{
 }
 
 .InputOfJoinfootDiv{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     height: 60px;
     margin-top: 8px;
 }
 
 .JoinfootInput{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    flex: 1 0 0;
-    align-self: stretch;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 0px;
+            flex: 1 0 0;
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
     width: 496px;
     height: 60px;
     background: rgba(255, 255, 255, 0.15);
+}
+
+.JoinfootInput::-webkit-input-placeholder{
+    padding-left: 32px;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+}
+
+.JoinfootInput::-moz-placeholder{
+    padding-left: 32px;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+}
+
+.JoinfootInput:-ms-input-placeholder{
+    padding-left: 32px;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+}
+
+.JoinfootInput::-ms-input-placeholder{
+    padding-left: 32px;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
 }
 
 .JoinfootInput::placeholder{
@@ -595,9 +823,13 @@ footer{
 }
 
 .AuthfootBut{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 16px 32px;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 10px;
     color: #2A254B;
     font-family: Roboto;
@@ -612,12 +844,21 @@ footer{
     width: 1275px;
     height: 52px;
     margin-left: 80px;
-    margin-top: 24px;
+    margin-top: 56px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     border-top: 1px solid #4E4D93;
-    align-items: end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
 }
 
 .CopyrightfootP{
@@ -630,9 +871,16 @@ footer{
 }
 
 .SocialMedfootDiv{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     height: 24px;
     width: 264px; 
 }
